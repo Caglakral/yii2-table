@@ -27,7 +27,7 @@ Modül kurulumu için portal klasöründe bulunan composer.json'da
      {         
      	//require kısmına bu kodu ekliyoruz
         
-          "Caglakral/table": "dev-master"
+          "esincaglakiral/table": "dev-master"
    	 
      }
      
