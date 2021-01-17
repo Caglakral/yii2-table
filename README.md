@@ -18,7 +18,7 @@ Modül kurulumu için portal klasöründe bulunan composer.json'da
  		{
         //repostories kısmına bu kodu ekliyoruz
             "type": "vcs",
-            "url": "https://github.com/Caglakral/yii2-table.git"
+            "url": "https://github.com/esincaglakiral/yii2-table.git"
         }
 
 	   ........
@@ -35,13 +35,13 @@ Modül kurulumu için portal klasöründe bulunan composer.json'da
 composer.jsondaki işlemlerden sonra Back-end için portal\backend\config altında bulunan main.php dosyasına aşağıdaki kodu ekliyoruz.
 	
     'projemodulu' => [
-            'class' => 'Caglakral\table\Module',
+            'class' => 'esincaglakiral\table\Module',
         ],
         
 Daha sonra Front-End için ise portal\frontend\config altında bulunan main.php dosyasına aşağıdaki kodu ekliyoruz.
 	
     'projemodulu' => [
-            'class' => 'Caglakral\table\Module',
+            'class' => 'esincaglakiral\table\Module',
         ],
 ---------
 Kurulum
